@@ -2,11 +2,11 @@ import styles from "../styles/Door.module.css"
 import DoorModel from "../model/door"
 
 interface DoorProps {
-    door: DoorModel
+    value: DoorModel
 }
 
 export default function Porta (props: DoorProps) {
-    const { door } = props
+    const door = props.value
     const selected = door.selected ? styles.selected : ''
 
     return (
