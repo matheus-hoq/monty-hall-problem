@@ -6,8 +6,9 @@
     padding: 15px;
 
     /* temp */
-    width: 200px;
-    height: 310px;
+    width: var(--door-area-width);
+    height: var(--door-area-height);
+
 }
 
 .number {
