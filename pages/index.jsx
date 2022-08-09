@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div style={{display: "flex", flexDirection: "column"}}>
       <input type="text" value={text} onChange={e => setText(e.target.value)}/>
-      <Door value={doorOne}/>
+      <Door value={doorOne} onChange={newDoor => setDoorOne(newDoor)} />
     </div>
   )
 }
